@@ -21,7 +21,7 @@ date_type = re.compile(r"""(
     )""",re.VERBOSE)
 
 # find the keyword of query="Test"
-g_memo = keep.find(query=date_type,labels=[keep.findLabel('テスト')])
+g_memo = keep.find(query=date_type,labels=[keep.findLabel('TEST_Label')])
 # indicate the found memos
 
 
